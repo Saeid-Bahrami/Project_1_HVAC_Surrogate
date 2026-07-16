@@ -16,7 +16,7 @@
     <div id="plot-container" style="margin: 20px auto; max-width: 600px; background: white; padding: 15px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
 
     <!-- تنظیمات پکیج‌ها و فراخوانی کدهای اصلی شما از مخزن قبلی -->
-    <py-config>
+<py-config>
         packages = ["numpy", "matplotlib"]
         
         [[fetch]]
@@ -24,7 +24,7 @@
         files = ["fno_numpy_engine.py"]
         
         [[fetch]]
-        from = "./"
+        from = "https://raw.githubusercontent.com/Saeid-Bahrami/Project_1_HVAC_Surrogate/main/"
         files = ["weights.npy"]
     </py-config>
 
